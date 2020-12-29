@@ -1,0 +1,6 @@
+framework module Pods_Butterfly_Example {
+  umbrella header "Pods-Butterfly_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
