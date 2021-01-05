@@ -1,9 +1,9 @@
 {
   "name": "Butterfly",
   "version": "0.1.0",
-  "summary": "A short description of Butterfly.",
+  "summary": "Butterfly host sdk.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/avielBS/Butterfly",
+  "homepage": "https://github.com/avielBS/ButterflyHostIOS1",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -18,5 +18,10 @@
   "platforms": {
     "ios": "9.0"
   },
-  "source_files": "Butterfly/Classes/**/*"
+  "source_files": "Butterfly/Classes/**/*",
+  "resource_bundles": {
+    "Butterfly": [
+      "Butterfly/Assets/resources/*.lproj/*.strings"
+    ]
+  }
 }

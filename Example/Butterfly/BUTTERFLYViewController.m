@@ -7,7 +7,7 @@
 //
 
 #import "BUTTERFLYViewController.h"
-
+#import <Butterfly/ButterflyHostController.h>
 
 @interface BUTTERFLYViewController ()
 
@@ -19,6 +19,7 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+
 }
 
 - (void)didReceiveMemoryWarning
@@ -27,4 +28,10 @@
     // Dispose of any resources that can be recreated.
 }
 
+
+- (IBAction)Button:(id)sender {
+    ButterflyHostController* butterflyHostContoller = [ButterflyHostController getInstance];
+    
+    [butterflyHostContoller OnGrabReportRequeste:self andKey:@"key2"];
+}
 @end

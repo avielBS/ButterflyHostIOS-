@@ -9,5 +9,7 @@
 @import UIKit;
 
 @interface BUTTERFLYViewController : UIViewController
+- (IBAction)Button:(id)sender;
+
 
 @end
