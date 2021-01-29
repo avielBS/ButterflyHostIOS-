@@ -7,7 +7,7 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'Butterfly'
+  s.name             = 'ButterflyHostSDK'
   s.version          = '0.1.0'
   s.summary          = 'Butterfly host sdk.'
 
@@ -25,7 +25,7 @@ TODO: Add long description of the pod here.
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'avielBS' => '38114338+avielBS@users.noreply.github.com' }
-  s.source           = { :git => 'https://github.com/avielBS/Butterfly.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/avielBS/ButterflyHostIOS1.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'

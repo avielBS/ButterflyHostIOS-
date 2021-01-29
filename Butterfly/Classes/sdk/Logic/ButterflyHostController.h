@@ -15,7 +15,7 @@
 
 @interface ButterflyHostController : NSObject
 
--(void) OnGrabReportRequeste:(UIViewController*) viewController andKey:(NSString*)key;
+-(void) OnGrabReportRequested:(UIViewController*) viewController andKey:(NSString*)key;
 
 
 @property(nonatomic,strong) UIViewController* viewController;

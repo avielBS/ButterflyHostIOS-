@@ -46,19 +46,19 @@
 		19DE66004864F4273F9155C0AFA50AF5 /* Pods-Butterfly_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Butterfly_Example.release.xcconfig"; sourceTree = "<group>"; };
 		1BC065A5EEF2F227615536C1C1D4E30D /* Localizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = Localizable.strings; path = he.lproj/Localizable.strings; sourceTree = "<group>"; };
 		1CB83144B9B98B69DDB5A5E44BF08B0E /* Pods-Butterfly_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Butterfly_Example-dummy.m"; sourceTree = "<group>"; };
-		24390EFD555DD124430DFF9724065945 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		24390EFD555DD124430DFF9724065945 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		265B4BFF3318C2887208C99E94A8F55F /* Report.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = Report.m; sourceTree = "<group>"; };
 		2EDB42DA0C3271F54C9806981331FF03 /* Butterfly-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Butterfly-dummy.m"; sourceTree = "<group>"; };
-		331EDE97F9A7DFC299779008827A0897 /* libPods-Butterfly_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-Butterfly_Example.a"; path = "libPods-Butterfly_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		331EDE97F9A7DFC299779008827A0897 /* libPods-Butterfly_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Butterfly_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C906CFBA5FD2CD3AC090C269B0F0730 /* Pods-Butterfly_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Butterfly_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		5B1C171E9E22552311A06DEA648C0D6B /* ToastMessage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ToastMessage.m; sourceTree = "<group>"; };
-		5F07C87B907B4253F917E2EB187444D5 /* libButterfly.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libButterfly.a; path = libButterfly.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F07C87B907B4253F917E2EB187444D5 /* libButterfly.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libButterfly.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		68EFE360A51EA712766A55FC0FD1E777 /* InputFromUser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = InputFromUser.m; sourceTree = "<group>"; };
 		6FE4021939752674BCBDE12068003051 /* Pods-Butterfly_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Butterfly_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		71BF03591F92CC2F66175B731F5895DF /* InputFromUser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = InputFromUser.h; sourceTree = "<group>"; };
-		7FD53764B9D0A9614874E4B754B04720 /* Butterfly.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = Butterfly.bundle; path = "Butterfly-Butterfly.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FD53764B9D0A9614874E4B754B04720 /* Butterfly.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Butterfly.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		82C244BBF49EDACCEBCA90A8A4433AC2 /* Pods-Butterfly_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Butterfly_Example-resources.sh"; sourceTree = "<group>"; };
-		887317EDA0C586913AB8F6B33270550E /* Butterfly.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = Butterfly.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		887317EDA0C586913AB8F6B33270550E /* ButterflyHostSDK.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = ButterflyHostSDK.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		8B38D06F028EA6E8CD40B629BE25AD41 /* ToastMessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ToastMessage.h; sourceTree = "<group>"; };
 		8BFCEC8BBC1AAE39449BB071C31E4322 /* LaunchScreen.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = LaunchScreen.strings; path = en.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 		8FADE7882D1CBC8CB5AD08BCF52D32F8 /* Butterfly.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Butterfly.xcconfig; sourceTree = "<group>"; };
@@ -66,8 +66,8 @@
 		A86E52437A063829FA8F5187D8F54DCE /* Report.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Report.h; sourceTree = "<group>"; };
 		B4F00148A719F8D5923C58806DE30DC6 /* ButterflyHostController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ButterflyHostController.m; sourceTree = "<group>"; };
 		BF203BCC7C9DEA7DC042E43001D3615A /* Reachability.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
-		C73645DF565C292CAD9CD5CB7F9E4521 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		CB87532F07C7F604A56971FE40386737 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		C73645DF565C292CAD9CD5CB7F9E4521 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		CB87532F07C7F604A56971FE40386737 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		CEF630F7D27905F8B24F8648337CC37C /* Pods-Butterfly_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Butterfly_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		D5B0D33BE71A372D939323B641663983 /* ButterflyHostController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ButterflyHostController.h; sourceTree = "<group>"; };
 		E2EC292168FF4DD70FBF22D24B1F173E /* Localizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = Localizable.strings; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
@@ -144,7 +144,7 @@
 		477AE9C1D8475026936B05AB489677AB /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				887317EDA0C586913AB8F6B33270550E /* Butterfly.podspec */,
+				887317EDA0C586913AB8F6B33270550E /* ButterflyHostSDK.podspec */,
 				CB87532F07C7F604A56971FE40386737 /* LICENSE */,
 				C73645DF565C292CAD9CD5CB7F9E4521 /* README.md */,
 			);

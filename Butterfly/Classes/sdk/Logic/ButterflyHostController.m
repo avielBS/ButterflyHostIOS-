@@ -36,7 +36,7 @@ __strong static ButterflyHostController* _shared;
     
 }
 
--(void) OnGrabReportRequeste:(UIViewController*) viewController andKey:(NSString*)key
+-(void) OnGrabReportRequested:(UIViewController*) viewController andKey:(NSString*)key
 {
     self.viewController = viewController;
     self.key = key;
