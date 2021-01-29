@@ -1,7 +1,7 @@
 # Acknowledgements
 This application makes use of the following third party libraries:
 
-## Butterfly
+## ButterflyHostSDK
 
 Copyright (c) 2020 avielBS <38114338+avielBS@users.noreply.github.com>
 

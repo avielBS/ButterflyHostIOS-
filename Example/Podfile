@@ -7,6 +7,6 @@ target 'Butterfly_Example' do
 
   # Pods for Butterfly_Example
 
-	pod ‘Butterfly’ , :path => ‘../‘
+	pod ‘ButterflyHostSDK’ , :path => ‘../‘
 
 end

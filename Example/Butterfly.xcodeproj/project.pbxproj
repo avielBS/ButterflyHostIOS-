@@ -319,7 +319,7 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-Butterfly_Example/Pods-Butterfly_Example-resources.sh",
-				"${PODS_CONFIGURATION_BUILD_DIR}/Butterfly/Butterfly.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/ButterflyHostSDK/Butterfly.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
