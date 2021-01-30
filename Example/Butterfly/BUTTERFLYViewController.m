@@ -7,7 +7,7 @@
 //
 
 #import "BUTTERFLYViewController.h"
-#import <Butterfly/ButterflyHostController.h>
+#import <ButterflyHostSDK/ButterflyHostController.h>
 
 @interface BUTTERFLYViewController ()
 
@@ -32,6 +32,6 @@
 - (IBAction)Button:(id)sender {
     ButterflyHostController* butterflyHostContoller = [ButterflyHostController getInstance];
     
-    [butterflyHostContoller OnGrabReportRequeste:self andKey:@"key2"];
+    [butterflyHostContoller OnGrabReportRequested:self andKey:@"key2"];
 }
 @end

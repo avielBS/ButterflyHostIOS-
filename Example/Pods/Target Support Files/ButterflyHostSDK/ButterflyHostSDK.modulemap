@@ -1,0 +1,6 @@
+framework module ButterflyHostSDK {
+  umbrella header "ButterflyHostSDK-umbrella.h"
+
+  export *
+  module * { export * }
+}

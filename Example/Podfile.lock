@@ -1,16 +1,16 @@
 PODS:
-  - ButterflyHostSDK (0.1.0)
+  - ButterflyHostSDK (0.3.0)
 
 DEPENDENCIES:
   - ButterflyHostSDK (from `../`)
 
 EXTERNAL SOURCES:
   ButterflyHostSDK:
-    :path: ../
+    :path: "../"
 
 SPEC CHECKSUMS:
-  ButterflyHostSDK: 8e3bba160cad65bad643a818ae367f7d6d3946ae
+  ButterflyHostSDK: 761a21111ac2099aba5bc33cbc0d6044fc0b9075
 
-PODFILE CHECKSUM: 9e958792658b44e141219a55257198f28854934c
+PODFILE CHECKSUM: bc98b2a237bb55fd07fbee62621b75f56a59dac0
 
-COCOAPODS: 1.4.0
+COCOAPODS: 1.5.2

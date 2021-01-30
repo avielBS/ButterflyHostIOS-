@@ -21,9 +21,9 @@
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
+		6B7F6AF063D309A28E5C44C5 /* Pods_Butterfly_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 202967EA2B1CEF4767755D07 /* Pods_Butterfly_Example.framework */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
-		BE6E0FE8118234DF86ADC636 /* libPods-Butterfly_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E30D98DB15B96FB67C38690 /* libPods-Butterfly_Example.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		202967EA2B1CEF4767755D07 /* Pods_Butterfly_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Butterfly_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2BE58001AC9F11407E2BFDA4 /* Butterfly.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Butterfly.podspec; path = ../Butterfly.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		305E5940259BC75D005F74BB /* he */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = he; path = he.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 		305E5941259BC75D005F74BB /* he */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = he; path = he.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -64,7 +65,6 @@
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		8E30D98DB15B96FB67C38690 /* libPods-Butterfly_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Butterfly_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFE5BC7006C5B3BE8ECF8FC5 /* Pods-Butterfly_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Butterfly_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Butterfly_Example/Pods-Butterfly_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		D37196616A5925DBB6116D9F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -77,7 +77,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				BE6E0FE8118234DF86ADC636 /* libPods-Butterfly_Example.a in Frameworks */,
+				6B7F6AF063D309A28E5C44C5 /* Pods_Butterfly_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -122,7 +122,7 @@
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
-				8E30D98DB15B96FB67C38690 /* libPods-Butterfly_Example.a */,
+				202967EA2B1CEF4767755D07 /* Pods_Butterfly_Example.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -204,7 +204,6 @@
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
 				43444D0A247E267F1889CF44 /* [CP] Embed Pods Frameworks */,
-				55C63C88A0A412825083FC29 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -301,33 +300,15 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-Butterfly_Example/Pods-Butterfly_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/Butterfly/Butterfly.framework",
+				"${BUILT_PRODUCTS_DIR}/ButterflyHostSDK/ButterflyHostSDK.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Butterfly.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ButterflyHostSDK.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Butterfly_Example/Pods-Butterfly_Example-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		55C63C88A0A412825083FC29 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-Butterfly_Example/Pods-Butterfly_Example-resources.sh",
-				"${PODS_CONFIGURATION_BUILD_DIR}/ButterflyHostSDK/Butterfly.bundle",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Butterfly.bundle",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Butterfly_Example/Pods-Butterfly_Example-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		934F72207182B54E145A110D /* [CP] Check Pods Manifest.lock */ = {

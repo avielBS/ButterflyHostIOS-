@@ -1,6 +1,6 @@
 {
   "name": "ButterflyHostSDK",
-  "version": "0.1.0",
+  "version": "0.3.0",
   "summary": "Butterfly host sdk.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/avielBS/ButterflyHostIOS1",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/avielBS/ButterflyHostIOS1.git",
-    "tag": "0.1.0"
+    "tag": "0.3.0"
   },
   "platforms": {
     "ios": "9.0"
