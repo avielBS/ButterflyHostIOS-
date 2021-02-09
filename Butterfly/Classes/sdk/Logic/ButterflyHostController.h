@@ -10,7 +10,8 @@
 #import <UIKit/UIKit.h>
 #import "Report.h"
 #import "InputFromUser.h"
-#import "Reachability.h"
+//#import "Reachability.h"
+#import <Reachability/Reachability.h>
 #import "ToastMessage.h"
 
 @interface ButterflyHostController : NSObject
