@@ -1,5 +1,4 @@
 # TheButterflyHost iOS SDK
-[![CI Status](https://img.shields.io/travis/avielBS/ButterflyHostSDK.svg?style=flat)](https://travis-ci.org/avielBS/ButterflyHostSDK)
 [![Version](https://img.shields.io/cocoapods/v/ButterflyHostSDK.svg?style=flat)](https://cocoapods.org/pods/ButterflyHostSDK)
 [![License](https://img.shields.io/cocoapods/l/ButterflyHostSDK.svg?style=flat)](https://cocoapods.org/pods/ButterflyHostSDK)
 [![Platform](https://img.shields.io/cocoapods/p/ButterflyHostSDK.svg?style=flat)](https://cocoapods.org/pods/ButterflyHostSDK)
