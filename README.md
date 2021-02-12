@@ -41,8 +41,8 @@ In order to present the view, ButterflyHostSDK require an the current UIViewCont
 // import the pod
 #import <ButterflyHostSDK/ButterflyHostController.h>
 
-    ButterflyHostController* butterflyHostContoller = [ButterflyHostController getInstance];
-    [butterflyHostContoller OnGrabReportRequested:UIViewController* andKey:@"YOUR_API_KEY"];
+   ButterflyHostController* butterflyHostContoller = [ButterflyHostController getInstance];
+   [butterflyHostContoller OnGrabReportRequested:UIViewController* andKey:@"YOUR_API_KEY"];
 
 ```
 
