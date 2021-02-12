@@ -31,7 +31,7 @@ Then run a pod install in your terminal, or from CocoaPods app.
 ## Usage
 
 To recognize your app in ButterflyHostSDK servers you need an application key, you can set it via code.
-In order to present the view, ButterflyHostSDK require an the current Activitiy.
+In order to present the view, ButterflyHostSDK require an the current UIViewController.
 
 #### Example
 
@@ -55,3 +55,4 @@ import ButterflyHost
 
 ## Comments
 
+If you don't have CocoaPods In your project, visit here : https://cocoapods.org/
