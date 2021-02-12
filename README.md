@@ -1,8 +1,8 @@
-# TheButterflyHost Android SDK
-[![CI Status](https://img.shields.io/travis/avielBS/Butterfly.svg?style=flat)](https://travis-ci.org/avielBS/Butterfly)
-[![Version](https://img.shields.io/cocoapods/v/Butterfly.svg?style=flat)](https://cocoapods.org/pods/Butterfly)
-[![License](https://img.shields.io/cocoapods/l/Butterfly.svg?style=flat)](https://cocoapods.org/pods/Butterfly)
-[![Platform](https://img.shields.io/cocoapods/p/Butterfly.svg?style=flat)](https://cocoapods.org/pods/Butterfly)
+# TheButterflyHost iOS SDK
+[![CI Status](https://img.shields.io/travis/avielBS/ButterflyHostSDK.svg?style=flat)](https://travis-ci.org/avielBS/ButterflyHostSDK)
+[![Version](https://img.shields.io/cocoapods/v/ButterflyHostSDK.svg?style=flat)](https://cocoapods.org/pods/ButterflyHostSDK)
+[![License](https://img.shields.io/cocoapods/l/ButterflyHostSDK.svg?style=flat)](https://cocoapods.org/pods/ButterflyHostSDK)
+[![Platform](https://img.shields.io/cocoapods/p/ButterflyHostSDK.svg?style=flat)](https://cocoapods.org/pods/ButterflyHostSDK)
 
 
 TheButterflyHost help you app to take part in the fight against domestic violent.
