@@ -13,10 +13,6 @@ TheButterflyHost help you app to take part in the fight against domestic violent
 ### Install via CocoaPods
 
 
-#### Using the plain and common maven
-
-#### Using "jitpack.io"
-
 You want to add pod 'ButterflyHostSDK' similar to the following to your Podfile:
 
 ```
@@ -56,4 +52,5 @@ import ButterflyHost
 
 ## Comments
 
-If you don't have CocoaPods In your project, visit here : https://cocoapods.org/
+* If you don't have CocoaPods In your project, visit here : https://cocoapods.org/
+* check out Localization suuport and add it to your project !
