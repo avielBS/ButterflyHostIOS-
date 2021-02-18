@@ -23,5 +23,10 @@
     "Butterfly": [
       "Butterfly/Assets/resources/*.lproj/*.strings"
     ]
+  },
+  "dependencies": {
+    "Reachability": [
+
+    ]
   }
 }

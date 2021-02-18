@@ -299,16 +299,18 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-Butterfly_Example/Pods-Butterfly_Example-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-Butterfly_Example/Pods-Butterfly_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/ButterflyHostSDK/ButterflyHostSDK.framework",
+				"${BUILT_PRODUCTS_DIR}/Reachability/Reachability.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ButterflyHostSDK.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Reachability.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Butterfly_Example/Pods-Butterfly_Example-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Butterfly_Example/Pods-Butterfly_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		934F72207182B54E145A110D /* [CP] Check Pods Manifest.lock */ = {

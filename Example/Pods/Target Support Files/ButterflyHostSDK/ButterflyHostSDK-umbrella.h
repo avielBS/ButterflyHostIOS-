@@ -11,7 +11,6 @@
 #endif
 
 #import "ButterflyHostController.h"
-#import "Reachability.h"
 #import "Report.h"
 #import "InputFromUser.h"
 #import "ToastMessage.h"

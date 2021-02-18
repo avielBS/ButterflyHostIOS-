@@ -1,16 +1,23 @@
 PODS:
-  - ButterflyHostSDK (0.3.0)
+  - ButterflyHostSDK (0.3.0):
+    - Reachability
+  - Reachability (3.2)
 
 DEPENDENCIES:
   - ButterflyHostSDK (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - Reachability
 
 EXTERNAL SOURCES:
   ButterflyHostSDK:
     :path: "../"
 
 SPEC CHECKSUMS:
-  ButterflyHostSDK: 761a21111ac2099aba5bc33cbc0d6044fc0b9075
+  ButterflyHostSDK: 77d46483dabbaaf693b2d585df4fd75ae566bc80
+  Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
 
-PODFILE CHECKSUM: bc98b2a237bb55fd07fbee62621b75f56a59dac0
+PODFILE CHECKSUM: 592f51cf74a3a9af96bb864d22cda0b70f48b66c
 
-COCOAPODS: 1.5.2
+COCOAPODS: 1.10.1
