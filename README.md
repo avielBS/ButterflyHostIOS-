@@ -7,7 +7,7 @@
 TheButterflyHost help you app to take part in the fight against domestic violent.
 
 
-## Installationa
+## Installations
 ### 🔌 & ▶️
 
 ### Install via CocoaPods
@@ -17,7 +17,7 @@ You want to add pod 'ButterflyHostSDK' similar to the following to your Podfile:
 
 ```
 target 'MyApp' do
-  pod 'ButterflyHostSDK', '0.3.0'
+  pod 'ButterflyHostSDK', '0.4.0'
 end
 
 ```

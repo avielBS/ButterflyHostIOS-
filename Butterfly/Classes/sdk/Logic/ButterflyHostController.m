@@ -183,6 +183,9 @@ __strong static ButterflyHostController* _shared;
                                                 if (statusCode == 200) {
                                                     [ToastMessage show:[bundle localizedStringForKey:@"butterfly_success" value:@"" table:nil] delayInSeconds:3 onDone:nil];
                                                 }
+                                                if (statusCode == 403) {
+                                                    [ToastMessage show:[bundle localizedStringForKey:@"butterfly_host_API_KEY_not_valid" value:@"" table:nil] delayInSeconds:3 onDone:nil];
+                                                }
                                                 else{
                                                     [ToastMessage show:
                                                      [bundle localizedStringForKey:@"butterfly_failed" value:@"" table:nil]

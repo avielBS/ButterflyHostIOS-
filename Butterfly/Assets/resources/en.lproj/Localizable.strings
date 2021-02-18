@@ -21,3 +21,5 @@
 
 "butterfly_host_send" = "Send";
 "butterfly_host_cancel" = "Cancel";
+
+"butterfly_host_API_KEY_not_valid" = "The service not available for this application";

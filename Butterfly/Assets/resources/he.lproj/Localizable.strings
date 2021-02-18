@@ -21,3 +21,5 @@
 
 "butterfly_host_send" = "שלח";
 "butterfly_host_cancel" = "ביטול";
+
+"butterfly_host_API_KEY_not_valid" = "השירות אינו זמין עבור אפליקציה זו";
