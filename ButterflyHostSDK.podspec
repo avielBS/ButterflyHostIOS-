@@ -30,10 +30,10 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '9.0'
 
-  s.source_files = 'Butterfly/Classes/**/*'
+  s.source_files = 'ButterflyHost/Classes/**/*'
   
    s.resource_bundles = {
-     'Butterfly' => ['Butterfly/Assets/resources/*.lproj/*.strings']
+     'Butterfly' => ['ButterflyHost/Assets/resources/*.lproj/*.strings']
    }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'

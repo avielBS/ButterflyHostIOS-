@@ -15,13 +15,12 @@
 
 @interface ButterflyHostController : NSObject
 
--(void) OnGrabReportRequested:(UIViewController*) viewController andKey:(NSString*)key;
+-(void) grabReportInViewController:(UIViewController*) viewController andKey:(NSString*)key;
 
 
-@property(nonatomic,strong) UIViewController* viewController;
-@property(nonatomic,strong) NSString* key;
+@property(nonatomic,strong) NSString* apiKey;
 
-+(ButterflyHostController*) getInstance;
++(ButterflyHostController*) shared;
 
 @end
 

@@ -30,8 +30,8 @@
 
 
 - (IBAction)Button:(id)sender {
-    ButterflyHostController* butterflyHostContoller = [ButterflyHostController getInstance];
+    ButterflyHostController* butterflyHostContoller = [ButterflyHostController shared];
     
-    [butterflyHostContoller OnGrabReportRequested:self andKey:@"key2"];
+    [butterflyHostContoller grabReportInViewController:self andKey:@"key2"];
 }
 @end

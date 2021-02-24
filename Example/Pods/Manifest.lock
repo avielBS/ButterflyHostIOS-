@@ -1,5 +1,5 @@
 PODS:
-  - ButterflyHostSDK (0.3.0):
+  - ButterflyHostSDK (0.5.0):
     - Reachability
   - Reachability (3.2)
 
@@ -15,7 +15,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  ButterflyHostSDK: 77d46483dabbaaf693b2d585df4fd75ae566bc80
+  ButterflyHostSDK: 5f7a2231e88d00cb6da9ce8f75757ae350f91fce
   Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
 
 PODFILE CHECKSUM: 592f51cf74a3a9af96bb864d22cda0b70f48b66c

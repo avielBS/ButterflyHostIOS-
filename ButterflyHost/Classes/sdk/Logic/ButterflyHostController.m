@@ -11,7 +11,7 @@
 @implementation ButterflyHostController
 
 __strong static ButterflyHostController* _shared;
-+(ButterflyHostController*) getInstance
++(ButterflyHostController*) shared
 {
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken,^{
@@ -22,7 +22,7 @@ __strong static ButterflyHostController* _shared;
 
 -(instancetype)init
 {
-    return [ButterflyHostController getInstance];
+    return [ButterflyHostController shared];
 }
 
 -(instancetype)initWithCoder:(NSCoder*) coder
@@ -36,15 +36,15 @@ __strong static ButterflyHostController* _shared;
     
 }
 
--(void) OnGrabReportRequested:(UIViewController*) viewController andKey:(NSString*)key
+-(void) grabReportInViewController:(UIViewController*) viewController andKey:(NSString*)key
 {
-    self.viewController = viewController;
-    self.key = key;
+
+    self.apiKey = key;
     
     InputFromUser *getUserInfo = [[InputFromUser alloc] init];
     
     
-    [getUserInfo getUserInput : self.viewController onDone:^(NSString * wayContact,NSString* fakePlace,NSString* comments) {
+    [getUserInfo getUserInput : viewController onDone:^(NSString * wayContact,NSString* fakePlace,NSString* comments) {
         
         Report *report = [[Report alloc ] init ];
         report.wayContact = wayContact;
@@ -148,7 +148,7 @@ __strong static ButterflyHostController* _shared;
     [request setValue:@"application/json" forHTTPHeaderField:@"Accept"];
     [request setHTTPBody:jsonBodyData];
     //adding the api key to header
-    [request addValue:self.key forHTTPHeaderField:@"BUTTERFLY_HOST_API_KEY"];
+    [request addValue:self.apiKey forHTTPHeaderField:@"BUTTERFLY_HOST_API_KEY"];
     
     NSURLSessionConfiguration *config = [NSURLSessionConfiguration defaultSessionConfiguration];
     NSURLSession *session = [NSURLSession sessionWithConfiguration:config
