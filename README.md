@@ -7,7 +7,7 @@
 TheButterflyHost help you app to take part in the fight against domestic violent.
 
 
-## Installations
+## Installation
 ### 🔌 & ▶️
 
 ### Install via CocoaPods
@@ -17,7 +17,7 @@ You want to add pod 'ButterflyHostSDK' similar to the following to your Podfile:
 
 ```
 target 'MyApp' do
-  pod 'ButterflyHostSDK', '0.4.0'
+  pod 'ButterflyHostSDK', '0.8.0'
 end
 
 ```
@@ -34,10 +34,10 @@ In order to present the view, ButterflyHostSDK require an the current UIViewCont
 
 ```Objective - c
 // import the pod
-#import <ButterflyHostSDK/ButterflyHostController.h>
+#import <ButterflyHostSDK/ButterflyHost.h>
 
-   ButterflyHostController* butterflyHostContoller = [ButterflyHostController getInstance];
-   [butterflyHostContoller OnGrabReportRequested:UIViewController* andKey:@"YOUR_API_KEY"];
+   ButterflyHost* butterflyHost = [ButterflyHost shared];
+   [butterflyHost grabReportInViewController:self usingKey:@"YOUR_API_KEY"];
 
 ```
 
@@ -45,7 +45,7 @@ In order to present the view, ButterflyHostSDK require an the current UIViewCont
 // import the pod
 import ButterflyHost
 
-    ButterflyHostController.getInstance().onGrabReportRequeste(UIViewController, andKey:"YOUR_API_KEY")
+    ButterflyHost.getInstance().grabReportInViewController(UIViewController, usingKey:"YOUR_API_KEY")
 
 
 ```

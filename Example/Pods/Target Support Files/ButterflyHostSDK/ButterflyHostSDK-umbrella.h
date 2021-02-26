@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "ButterflyHost.h"
 #import "ButterflyHostController.h"
 #import "Report.h"
 #import "InputFromUser.h"
