@@ -9,12 +9,10 @@
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 
-@interface ButterflyHostController: NSObject
+@interface ButterflyHost: NSObject
 
--(void) grabReportInViewController:(UIViewController*) viewController usingKey:(NSString*)key;
+-(void) grabReportInViewController:(UIViewController*) viewController usingKey:(NSString*) key;
 
-+(ButterflyHostController*) shared;
++(ButterflyHost *) shared;
 
 @end
-
-

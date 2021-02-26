@@ -28,6 +28,8 @@
 		BC31A14EAF4C287152DC7177999E3B80 /* ButterflyHostController.h in Headers */ = {isa = PBXBuildFile; fileRef = 99066378B2AA87C1DC897A110C125F77 /* ButterflyHostController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BD66B995032AD7842D76D5593381DAB3 /* InputFromUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 82CAA48CF9EE14D7355AA39279D1365E /* InputFromUser.m */; };
 		C6B6BB6E4D0E0254FAC7C84FCCD4D703 /* Pods-Butterfly_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F0001D15161B184A2333D237D199FECA /* Pods-Butterfly_Example-dummy.m */; };
+		C8B0F81B25E9514D00D5938C /* ButterflyHost.h in Headers */ = {isa = PBXBuildFile; fileRef = C8B0F81925E9514D00D5938C /* ButterflyHost.h */; };
+		C8B0F81C25E9514D00D5938C /* ButterflyHost.m in Sources */ = {isa = PBXBuildFile; fileRef = C8B0F81A25E9514D00D5938C /* ButterflyHost.m */; };
 		C9321CA17682004B1DA55CFF59697FA5 /* Report.h in Headers */ = {isa = PBXBuildFile; fileRef = B63CAE225F4F5DFA6B97124377ACCA6C /* Report.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DEF5A9366479293827A207D9CF38094C /* Reachability.h in Headers */ = {isa = PBXBuildFile; fileRef = B6C17EA3A69CB4BBBA3B676CBD70A135 /* Reachability.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F225C176D38B8850C9DA28771BD1D50B /* Reachability-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7561A86BD3EFB77ACDBF78B1657902BF /* Reachability-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -100,6 +102,8 @@
 		B63CAE225F4F5DFA6B97124377ACCA6C /* Report.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Report.h; sourceTree = "<group>"; };
 		B6C17EA3A69CB4BBBA3B676CBD70A135 /* Reachability.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
 		BBD24ABFC276339BC7ADE7D223787397 /* Report.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = Report.m; sourceTree = "<group>"; };
+		C8B0F81925E9514D00D5938C /* ButterflyHost.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ButterflyHost.h; sourceTree = "<group>"; };
+		C8B0F81A25E9514D00D5938C /* ButterflyHost.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ButterflyHost.m; sourceTree = "<group>"; };
 		CCDC23A1AD054908C09EC5C378DB1EA3 /* ToastMessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ToastMessage.h; sourceTree = "<group>"; };
 		CD681A39710155E4B8108CAD439D54B0 /* Reachability-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Reachability-Info.plist"; sourceTree = "<group>"; };
 		D6627ED9B29C96E0808346499D2F4A85 /* ButterflyHostSDK-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ButterflyHostSDK-Info.plist"; sourceTree = "<group>"; };
@@ -293,6 +297,8 @@
 				7324AADA59ADE31572D4A718B7AACB73 /* ButterflyHostController.m */,
 				B63CAE225F4F5DFA6B97124377ACCA6C /* Report.h */,
 				BBD24ABFC276339BC7ADE7D223787397 /* Report.m */,
+				C8B0F81925E9514D00D5938C /* ButterflyHost.h */,
+				C8B0F81A25E9514D00D5938C /* ButterflyHost.m */,
 			);
 			name = Logic;
 			path = ButterflyHost/Classes/sdk/Logic;
@@ -347,6 +353,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C8B0F81B25E9514D00D5938C /* ButterflyHost.h in Headers */,
 				BC31A14EAF4C287152DC7177999E3B80 /* ButterflyHostController.h in Headers */,
 				43D54D5F867B1E061A86F6C816D8924F /* ButterflyHostSDK-umbrella.h in Headers */,
 				78A9F9A3D876F7635F5B34115F73CCBA /* InputFromUser.h in Headers */,
@@ -518,6 +525,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9DAFB024F0D91252112E95D4C30F89EE /* ButterflyHostController.m in Sources */,
+				C8B0F81C25E9514D00D5938C /* ButterflyHost.m in Sources */,
 				5807B2C65E782B9A40CC61B124F437FD /* ButterflyHostSDK-dummy.m in Sources */,
 				BD66B995032AD7842D76D5593381DAB3 /* InputFromUser.m in Sources */,
 				33D5D88A717B20ADE2BC57F7A3598A0C /* LaunchScreen.strings in Sources */,

@@ -8,14 +8,12 @@
 
 #import <Foundation/Foundation.h>
 
-@interface Report : NSObject
+@interface Report: NSObject
 
-@property (nonatomic,strong)  NSString *comments;
-@property (nonatomic,strong)    NSString *wayContact;
-@property (nonatomic,strong)    NSString *fakePlace;
-@property (nonatomic,strong)    NSString *message;
-@property (nonatomic,strong)      NSString *country;
-
-- (void) printReport;
+@property (nonatomic,strong) NSString *comments;
+@property (nonatomic,strong) NSString *contactInformation;
+@property (nonatomic,strong) NSString *fakePlace;
+@property (nonatomic,strong) NSString *message;
+@property (nonatomic,strong) NSString *country;
 
 @end
